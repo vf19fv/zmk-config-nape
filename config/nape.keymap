@@ -221,12 +221,12 @@
         };
 
         back_test {
-            bindings = <&kp LA(LEFT_ARROW)>;
+            bindings = <&kp LA(RIGHT_ARROW)>;
             key-positions = <0 2>;
         };
 
         forward_test {
-            bindings = <&kp LA(RIGHT_ARROW)>;
+            bindings = <&kp LA(LEFT_ARROW)>;
             key-positions = <0 1>;
         };
     };
