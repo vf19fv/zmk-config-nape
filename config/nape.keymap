@@ -219,5 +219,15 @@
             key-positions = <1 2>;
             timeout-ms = <50>;
         };
+
+        back {
+            bindings = <&kp K_BACK>;
+            key-positions = <0 2>;
+        };
+
+        forward {
+            bindings = <&kp K_FORWARD>;
+            key-positions = <1 0>;
+        };
     };
 };
